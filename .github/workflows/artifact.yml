@@ -26,7 +26,7 @@ jobs:
      - name: download the file
        uses: actions/download-artifact@v4
        with: 
-        name: artifact-file
+        name: hello-artifact
         path: ./artifacts
      - name: showing file content
        run: cat ./artifacts/hello.txt
